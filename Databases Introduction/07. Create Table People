@@ -1,0 +1,19 @@
+CREATE TABLE [People] (
+	[Id] INT PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(200) NOT NULL,
+	[Picture] IMAGE,	
+	[Height] DECIMAL(3, 2),
+	[Weight] DECIMAL(4, 2),
+	[Gender] CHAR(1) NOT NULL,
+	CHECK ([Gender] = 'm' OR [Gender] = 'f'),
+	[Birthdate] DATE NOT NULL,
+	[Biography] NVARCHAR(MAX)
+)
+
+INSERT INTO [People]([Name], [Height], [Weight], [Gender], [Birthdate], [Biography])
+	VALUES
+('Gosho', 1.70, 70.00, 'm', '1996-05-22', 'G bio'),
+('Pesho', 1.71, 72.00, 'm', '1995-10-08', 'P bio'),
+('Sasho', 1.50, 50.00, 'm', '2000-10-13', 'S bio'),
+('Penka', 1.65, 52.00, 'f', '2002-02-02', 'PF bio'),
+('Sashka', 1.72, 55.00, 'f', '2000-04-06', 'SF bio')
