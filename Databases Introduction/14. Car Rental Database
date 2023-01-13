@@ -1,0 +1,85 @@
+CREATE DATABASE [CarRental]
+
+USE [CarRental]
+
+CREATE TABLE [Categories](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[CategoryName] CHAR(2) NOT NULL,
+	[DailyRate] INT NOT NULL,
+	[WeeklyRate] INT NOT NULL,
+	[MonthlyRate] INT NOT NULL,
+	[WeekendRate] INT NOT NULL
+)
+INSERT INTO [Categories] VALUES
+('B', 10, 50, 120, 20),
+('B1', 15, 45, 100, 10),
+('B', 8, 40, 95, 12)
+
+
+CREATE TABLE [Cars](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[PlateNumber] CHAR(8) NOT NULL,
+	[Model] VARCHAR(10) NOT NULL,
+	[CarYear] INT NOT NULL,
+	[CategoryId] INT FOREIGN KEY REFERENCES [Categories](Id) NOT NULL,
+	[Doors] INT NOT NULL,
+	[Picture] IMAGE,
+	[Condition] VARCHAR(10),
+	[Available] BIT NOT NULL,
+	CHECK ([Available] = 1 or [Available] = -1)
+)
+INSERT INTO [Cars]([PlateNumber], [Model], [CarYear], [CategoryId], [Doors], [Available]) VALUES
+('ST1234AB', 'BMW', 2000, 1, 2, 1),
+('SA4321BA', 'Opel', 1993, 2, 4, 1),
+('S4231VA', 'AUDI', 1999, 3, 5, -1)
+
+
+CREATE TABLE [Employees](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[FirstName] VARCHAR(10) NOT NULL,
+	[LastName] VARCHAR(10) NOT NULL,
+	[Title] VARCHAR(10),
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [Employees]([FirstName], [LastName]) VALUES
+('Gosho', 'Goshov'),
+('Pesho', 'Peshov'),
+('Kris', 'Frodov')
+
+
+CREATE TABLE [Customers](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[DriverLicenceNumber] INT NOT NULL,
+	[FullName] VARCHAR(20) NOT NULL,
+	[Address] VARCHAR(100) NOT NULL,
+	[City] VARCHAR(10) NOT NULL,
+	[ZIPCode] INT NOT NULL,
+	[Notes] NVARCHAR(MAX)
+)
+INSERT INTO [Customers] VALUES
+(12345, 'Kris Frodov', 'Sweden Unknown city', 'Unknown', 1555, NULL),
+(54321, 'Dido Belqta', 'Varna, do edno durvo', 'Varna', 9000, NULL),
+(42165, 'Pesho Peshov', 'Plovdiv do edin kamuk', 'Plovdiv', 4000, NULL)
+
+
+CREATE TABLE [RentalOrders](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[EmployeeId] INT FOREIGN KEY REFERENCES [Employees](Id) NOT NULL,
+	[CustomerId] INT FOREIGN KEY REFERENCES [Customers](Id) NOT NULL,
+	[CarId] INT FOREIGN KEY REFERENCES [Cars](Id) NOT NULL,
+	[TankLevel] INT DEFAULT 80,
+	[KilometrageStart] INT NOT NULL,
+	[KilometrageEnd] INT NOT NULL,
+	[TotalKilometrage] INT NOT NULL, 
+	[StartDate] DATE NOT NULL,
+	[EndDate] DATE NOT NULL,
+	[TotalDays] INT NOT NULL,
+	[RateApplied] DECIMAL(5, 2) NOT NULL,
+	[TaxRate] DECIMAL(4, 2) NOT NULL,
+	[OrderStatus] VARCHAR(10) NOT NULL,
+	[Notes] NVARCHAR(MAX)
+)
+INSERT INTO [RentalOrders] VALUES
+	(1, 2, 3, 70, 90000, 100000, 10000, '1994-10-01', '1994-10-21', 20, 100.00, 14.00, 'Pending', NULL),
+	(2, 3, 2, 85, 250000, 2750000, 25000, '2011-11-12', '2011-11-24', 12, 150.00, 17.50, 'Canceled', NULL),
+	(3, 1, 1, 90, 0, 120000, 120000, '2025-04-05', '2025-05-02', 27, 220.00, 21.25, 'Delivered', NULL)
