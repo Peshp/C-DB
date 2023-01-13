@@ -1,0 +1,107 @@
+CREATE DATABASE Hotel
+
+USE Hotel
+
+CREATE TABLE [Employees](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[FirstName] VARCHAR(20) NOT NULL,
+	[LastName] VARCHAR(20) NOT NULL,
+	[Title] VARCHAR(30) NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [Employees] VALUES
+('Kris', 'Frodov', 'Manager', NULL),
+('Dido', 'Didov', 'Super-Manager', NULL),
+('Tonkata', 'Me', 'Owner', NULL)
+
+CREATE TABLE [Customers](
+	[AccountNumber] INT PRIMARY KEY IDENTITY,
+	[FirstName] VARCHAR(20) NOT NULL,
+	[LastName] VARCHAR(20) NOT NULL,
+	[PhoneNumber] BIGINT NOT NULL,
+	[EmergencyName] VARCHAR(20) NOT NULL,
+	[EmergencyNumber] BIGINT NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [Customers] VALUES
+('Pesho', 'Peshov', 0889638521, 'Name', 12222, NULL),
+('Gosho', 'Goshov', 0888651279, 'Name2', 13333, NULL),
+('Sasho', 'Sashov', 0887994230, 'Name3', 14444, NULL)
+
+
+CREATE TABLE [RoomStatus](
+	[RoomStatus] VARCHAR(20) PRIMARY KEY NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [RoomStatus] VALUES
+('Free', NULL),
+('Reserved', NULL),
+('Free2', NULL)
+
+CREATE TABLE [RoomTypes](
+	[RoomType] VARCHAR(20) PRIMARY KEY NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [RoomTypes] VALUES
+('Room', NULL),
+('VIP', NULL),
+('Apartment', NULL)
+
+CREATE TABLE [BedTypes](
+	[BedType] VARCHAR(20) PRIMARY KEY NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [BedTypes] VALUES
+('Double', NULL),
+('Double2', NULL),
+('Single', NULL)
+
+
+CREATE TABLE [Rooms](
+	[Roomnumber] INT PRIMARY KEY IDENTITY,
+	[RoomType] VARCHAR(20) FOREIGN KEY REFERENCES [RoomTypes](RoomType) NOT NULL,
+	[BedType] VARCHAR(20) FOREIGN KEY REFERENCES [BedTypes](BedType) NOT NULL,
+	[Rate] INT NOT NULL,
+	[RoomStatus] VARCHAR(20) FOREIGN KEY REFERENCES [RoomStatus](RoomStatus) NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [Rooms] VALUES
+('Room', 'Single', 3, 'Free', NULL),
+('Apartment', 'Double2', 5, 'Reserved', NULL),
+('VIP', 'Double', 5, 'Free2', NULL)
+
+
+CREATE TABLE [Payments](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[EmployeeId] INT FOREIGN KEY REFERENCES [Employees](Id) NOT NULL,
+	[PaymentDate] DATE NOT NULL,
+	[AccountNumber] INT FOREIGN KEY REFERENCES [Customers](AccountNumber) NOT NULL,
+	[FirstDateOccupied] DATE NOT NULL,
+	[LastDateOccupied] DATE NOT NULL,
+	[TotalDays] INT NOT NULL,
+	[AmountCharged] DECIMAL(5, 2) NOT NULL,
+	[TaxRate] DECIMAL(4, 2) NOT NULL,
+	[TaxAmount] DECIMAL(5, 2) NOT NULL,
+	[PaymentTotal] DECIMAL(5, 2) NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [Payments] VALUES
+(1, '2022-12-05', 1,'2022-12-01', '2022-12-05', 5, 500.00, 20.00, 50.00, 570.00, NULL),
+(2, '2022-12-10', 2, '2022-12-05', '2022-12-10', 5, 600.00, 80.00, 10.00, 690.00, NULL),
+(3, '2022-12-15', 1, '2022-12-21', '2022-12-15', 6, 700.00, 40.00, 50.00, 790.00, NULL)
+
+
+CREATE TABLE [Occupancies](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[EmployeeId] INT FOREIGN KEY REFERENCES [Employees](Id) NOT NULL,
+	[DateOccupied] DATE NOT NULL,
+	[AccountNumber] INT FOREIGN KEY REFERENCES [Customers](AccountNumber) NOT NULL,
+	[RoomNumber] INT FOREIGN KEY REFERENCES [Rooms](RoomNumber) NOT NULL,
+	[RateApplied] DECIMAL(4, 2) NOT NULL,
+	[PhoneCharge] DECIMAL(4, 2) NOT NULL,
+	[Notes] VARCHAR(MAX)
+)
+INSERT INTO [Occupancies] VALUES
+(1, '2022-12-22', 1, 1, 40.00, 56.00, NULL),
+(2, '2022-12-23', 2, 2, 50.00, 66.00, NULL),
+(3, '2022-12-24', 3, 3, 60.00, 76.00, NULL)
