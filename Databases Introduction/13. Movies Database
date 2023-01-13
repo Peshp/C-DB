@@ -1,0 +1,58 @@
+CREATE DATABASE [Movies]
+
+USE [Movies]
+
+CREATE TABLE [Directors](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[DirectorName] NVARCHAR(20) NOT NULL,
+	[Notes] NVARCHAR(MAX)
+)
+INSERT INTO [Directors] VALUES
+('Gosho', 'G Note'),
+('Pesho', 'P Note'),
+('Sasho', 'S Note'),
+('Gancho', 'Gan Note'),
+('Ilian', 'Il Note')
+
+CREATE TABLE [Genres](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[GenreName] VARCHAR(10) NOT NULL,
+	[Notes] NVARCHAR(MAX)
+)
+INSERT INTO [Genres] VALUES
+('Drama', 'D note'),
+('Tragedy', 'T note'),
+('Comedy', 'C note'),
+('Sci-Fi', 'S note'),
+('Horror', 'H note')
+
+CREATE TABLE [Categories](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[CategoryName] VARCHAR(10) NOT NULL,
+	[Notes] NVARCHAR(MAX)
+)
+INSERT INTO [Categories] VALUES
+('C1', 'C1'),
+('C2', 'C2'),
+('C3', 'C3'),
+('C4', 'C4'),
+('C5', 'C5')
+
+CREATE TABLE [Movies](
+	[Id] INT PRIMARY KEY IDENTITY,
+	[Title] VARCHAR(20) NOT NULL,
+	[DirectorId] INT FOREIGN KEY REFERENCES [Directors](Id) NOT NULL,
+	[CopyrightYear] INT NOT NULL,
+	[Length] TIME NOT NULL,
+	[GenreId] INT FOREIGN KEY REFERENCES [Genres](Id) NOT NULL,
+	[CategoryId] INT FOREIGN KEY REFERENCES [Categories](Id) NOT NULL,
+	[Rating] DECIMAL(2, 1) NOT NULL,
+	[Notes] NVARCHAR(MAX)
+)
+
+INSERT INTO [Movies] VALUES
+('Hi', 1, 1995, '02:22:00', 2, 3, 8.4, NULL),
+('Hi 2', 2, 2000, '02:55:00', 3, 4, 7.6, NULL),
+('Hi 3', 3, 2005, '03:15:00', 4, 5, 8.7, NULL),
+('Hi again', 4, 2010, '02:34:00', 5, 1, 9.2, NULL),
+('Hi returns', 5, 2015, '02:19:00', 1, 2, 9.5, NULL)
