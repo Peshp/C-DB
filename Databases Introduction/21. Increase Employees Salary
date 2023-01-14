@@ -1,3 +1,3 @@
-USE [Hotel]
-UPDATE Payments SET TaxRate -= 0.03
-SELECT * FROM [Payments]
+SELECT * FROM Employees2
+ORDER BY [Salary] DESC
+UPDATE Employees2 SET Salary *= 1.1
