@@ -1,4 +1,4 @@
-Problem 1. One-To-One Relationship
+# Problem 1. One-To-One Relationship
 Create two tables as follows. Use appropriate data types.
 Persons Passports
 PersonID FirstName Salary PassportID PassportID PassportNumber
@@ -8,7 +8,7 @@ PersonID FirstName Salary PassportID PassportID PassportNumber
 Insert the data from the example above.
 Alter the customers table and make PersonID a primary key. Create a foreign key between Persons and Passports by using PassportID column.
 
-Problem 2. One-To-Many Relationship
+# Problem 2. One-To-Many Relationship
 Create two tables as follows. Use appropriate data types.
 Models Manufacturers
 ModelID Name ManufacturerID ManufacturerID Name EstablishedOn
@@ -20,7 +20,7 @@ ModelID Name ManufacturerID ManufacturerID Name EstablishedOn
 106 Nova 3
 Insert the data from the example above. Add primary keys and foreign keys.
 
-Problem 3. Many-To-Many Relationship
+# Problem 3. Many-To-Many Relationship
 Create three tables as follows. Use appropriate data types.
 Students Exams StudentsExams
 StudentID Name ExamID Name StudentID ExamID
@@ -33,7 +33,7 @@ StudentID Name ExamID Name StudentID ExamID
 Insert the data from the example above.
 Add primary keys and foreign keys. Have in mind that table StudentsExams should have a composite primary key.
 
-Problem 4. Self-Referencing
+# Problem 4. Self-Referencing
 Create a single table as follows. Use appropriate data types.
 Teachers
 TeacherID Name ManagerID
@@ -45,19 +45,19 @@ TeacherID Name ManagerID
 106 Greta 101
 Insert the data from the example above. Add primary keys and foreign keys. The foreign key should be between ManagerId and TeacherId.
 
-Problem 5. Online Store Database
+# Problem 5. Online Store Database
 Create a new database and design the following structure:
 
-Problem 6. University Database
+# Problem 6. University Database
 Create a new database and design the following structure:
 
-Problem 7. SoftUni Design
+# Problem 7. SoftUni Design
 Create an E/R Diagram of the SoftUni Database. There are some special relations you should check out: Employees are self-referenced (ManagerID) and Departments have One-to-One with the Employees (ManagerID) while the Employees have One-to-Many (DepartmentID). You might find it interesting how it looks on the diagram. 
 
-Problem 8. Geography Design
+# Problem 8. Geography Design
 Create an E/R Diagram of the Geography Database.
 
-Problem 9. *Peaks in Rila
+# Problem 9. *Peaks in Rila
 Display all peaks for "Rila" mountain. Include:
 • MountainRange
 • PeakName
