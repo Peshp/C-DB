@@ -53,16 +53,3 @@ Create a new database and design the following structure:
 
 # Problem 7. SoftUni Design
 Create an E/R Diagram of the SoftUni Database. There are some special relations you should check out: Employees are self-referenced (ManagerID) and Departments have One-to-One with the Employees (ManagerID) while the Employees have One-to-Many (DepartmentID). You might find it interesting how it looks on the diagram. 
-
-# Problem 8. Geography Design
-Create an E/R Diagram of the Geography Database.
-
-# Problem 9. *Peaks in Rila
-Display all peaks for "Rila" mountain. Include:
-• MountainRange
-• PeakName
-• Elevation
-Peaks should be sorted by elevation descending.
-Example
-MountainRange PeakName Elevation
-Rila Musala 2925
