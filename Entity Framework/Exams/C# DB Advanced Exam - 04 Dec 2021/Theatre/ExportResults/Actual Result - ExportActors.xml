@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Title>A Raisin in the Sun</Title>
+    <Duration>01:40:00</Duration>
+    <Rating>5.4</Rating>
+    <Genre>Drama</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Tobin Tamburi</FullName>
+        <MainCharacter>Plays main character in 'A Raisin in the Sun'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Marcello Brothers</FullName>
+        <MainCharacter>Plays main character in 'A Raisin in the Sun'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Dorian Wickins</FullName>
+        <MainCharacter>Plays main character in 'A Raisin in the Sun'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Awake and Sing</Title>
+    <Duration>02:41:00</Duration>
+    <Rating>3.8</Rating>
+    <Genre>Drama</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Jamey Medgwick</FullName>
+        <MainCharacter>Plays main character in 'Awake and Sing'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Hersh Birdis</FullName>
+        <MainCharacter>Plays main character in 'Awake and Sing'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Elke Kavanagh</FullName>
+        <MainCharacter>Plays main character in 'Awake and Sing'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Candida</Title>
+    <Duration>02:21:00</Duration>
+    <Rating>6.5</Rating>
+    <Genre>Romance</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Vincenty Dodsworth</FullName>
+        <MainCharacter>Plays main character in 'Candida'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Rochette Polleye</FullName>
+        <MainCharacter>Plays main character in 'Candida'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Jefferson Chell</FullName>
+        <MainCharacter>Plays main character in 'Candida'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Currey Le Frank</FullName>
+        <MainCharacter>Plays main character in 'Candida'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Fences</Title>
+    <Duration>03:20:00</Duration>
+    <Rating>4.7</Rating>
+    <Genre>Musical</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Si Grigoryev</FullName>
+        <MainCharacter>Plays main character in 'Fences'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Reinold Paddemore</FullName>
+        <MainCharacter>Plays main character in 'Fences'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Farleigh Pascho</FullName>
+        <MainCharacter>Plays main character in 'Fences'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Cornie Schottli</FullName>
+        <MainCharacter>Plays main character in 'Fences'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Bendick Trorey</FullName>
+        <MainCharacter>Plays main character in 'Fences'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Alphonso Fulcher</FullName>
+        <MainCharacter>Plays main character in 'Fences'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Hamlet</Title>
+    <Duration>02:11:00</Duration>
+    <Rating>4.1</Rating>
+    <Genre>Comedy</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Tricia Lantry</FullName>
+        <MainCharacter>Plays main character in 'Hamlet'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Steven Lanfer</FullName>
+        <MainCharacter>Plays main character in 'Hamlet'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Rycca Klimkov</FullName>
+        <MainCharacter>Plays main character in 'Hamlet'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Edouard Idle</FullName>
+        <MainCharacter>Plays main character in 'Hamlet'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Devy Everest</FullName>
+        <MainCharacter>Plays main character in 'Hamlet'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Ashli Thurstance</FullName>
+        <MainCharacter>Plays main character in 'Hamlet'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Hedda Gabler</Title>
+    <Duration>03:50:00</Duration>
+    <Rating>1</Rating>
+    <Genre>Musical</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Shirlene Canedo</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Rhianna McLurg</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Maisie Hymas</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Colet Biernat</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Clement Pykett</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Branden Drewe</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Anastasie McNally</FullName>
+        <MainCharacter>Plays main character in 'Hedda Gabler'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Life With Father</Title>
+    <Duration>04:21:00</Duration>
+    <Rating>Premier</Rating>
+    <Genre>Comedy</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Tyson Antonellini</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Smitty Beaty</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Sigismondo Pettiford</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Monroe Spraggon</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Mabel Belfit</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Ingaborg Oakenfield</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Evita Ridler</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Aurore Blazej</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Andriana Joskowicz</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Alica O'Hanley</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Alexine Rickhuss</FullName>
+        <MainCharacter>Plays main character in 'Life With Father'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Look Back in Anger</Title>
+    <Duration>01:50:00</Duration>
+    <Rating>5.3</Rating>
+    <Genre>Musical</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Silvana Flegg</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Kessia Oliphant</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Ganny Kenrick</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Fonsie Soughton</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Brock Palle</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Bartholomeus Pentecust</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Agatha Tomashov</FullName>
+        <MainCharacter>Plays main character in 'Look Back in Anger'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Mission Drift</Title>
+    <Duration>03:21:00</Duration>
+    <Rating>7.1</Rating>
+    <Genre>Comedy</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Odilia Jasiak</FullName>
+        <MainCharacter>Plays main character in 'Mission Drift'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Nathalie Neiland</FullName>
+        <MainCharacter>Plays main character in 'Mission Drift'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Nance Pollie</FullName>
+        <MainCharacter>Plays main character in 'Mission Drift'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Oedipus Rex</Title>
+    <Duration>01:13:00</Duration>
+    <Rating>7.2</Rating>
+    <Genre>Musical</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Oralle Bladder</FullName>
+        <MainCharacter>Plays main character in 'Oedipus Rex'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Grover Petherick</FullName>
+        <MainCharacter>Plays main character in 'Oedipus Rex'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Dedie Northcote</FullName>
+        <MainCharacter>Plays main character in 'Oedipus Rex'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Abbi Sandwich</FullName>
+        <MainCharacter>Plays main character in 'Oedipus Rex'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Playboy of the Western World</Title>
+    <Duration>03:21:00</Duration>
+    <Rating>6.1</Rating>
+    <Genre>Comedy</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Vonny Henlon</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Traci Burgis</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Heidie Pudsey</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Durand Rapper</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Darryl Shobbrook</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Chilton D'Ambrogi</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Brod Doy</FullName>
+        <MainCharacter>Plays main character in 'Playboy of the Western World'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Stuff Happens</Title>
+    <Duration>03:10:00</Duration>
+    <Rating>6.3</Rating>
+    <Genre>Comedy</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Xenia Osipov</FullName>
+        <MainCharacter>Plays main character in 'Stuff Happens'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Ernaline Gayforth</FullName>
+        <MainCharacter>Plays main character in 'Stuff Happens'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Emily Crawforth</FullName>
+        <MainCharacter>Plays main character in 'Stuff Happens'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Tartuffe</Title>
+    <Duration>02:45:00</Duration>
+    <Rating>Premier</Rating>
+    <Genre>Drama</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Salaidh Dedon</FullName>
+        <MainCharacter>Plays main character in 'Tartuffe'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Linnea Edgeley</FullName>
+        <MainCharacter>Plays main character in 'Tartuffe'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Celine Kerwick</FullName>
+        <MainCharacter>Plays main character in 'Tartuffe'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Carley Lomansey</FullName>
+        <MainCharacter>Plays main character in 'Tartuffe'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>The Importance of Being</Title>
+    <Duration>04:21:00</Duration>
+    <Rating>1.3</Rating>
+    <Genre>Musical</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Wylma Tillerton</FullName>
+        <MainCharacter>Plays main character in 'The Importance of Being'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Raymund Odlin</FullName>
+        <MainCharacter>Plays main character in 'The Importance of Being'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Mattie GiacobbiniJacob</FullName>
+        <MainCharacter>Plays main character in 'The Importance of Being'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Three Kingdoms</Title>
+    <Duration>02:55:00</Duration>
+    <Rating>6.1</Rating>
+    <Genre>Drama</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Yettie Copping</FullName>
+        <MainCharacter>Plays main character in 'Three Kingdoms'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Marni Sellack</FullName>
+        <MainCharacter>Plays main character in 'Three Kingdoms'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Cosetta Mauditt</FullName>
+        <MainCharacter>Plays main character in 'Three Kingdoms'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Cindelyn Mance</FullName>
+        <MainCharacter>Plays main character in 'Three Kingdoms'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Uncle Vanya</Title>
+    <Duration>03:10:00</Duration>
+    <Rating>Premier</Rating>
+    <Genre>Drama</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Zorana Kitcat</FullName>
+        <MainCharacter>Plays main character in 'Uncle Vanya'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Torrin Darke</FullName>
+        <MainCharacter>Plays main character in 'Uncle Vanya'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Jocelyne Dartnell</FullName>
+        <MainCharacter>Plays main character in 'Uncle Vanya'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Alair Cattonnet</FullName>
+        <MainCharacter>Plays main character in 'Uncle Vanya'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Adolf Gally</FullName>
+        <MainCharacter>Plays main character in 'Uncle Vanya'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>What the Butler Saw</Title>
+    <Duration>02:25:00</Duration>
+    <Rating>5.2</Rating>
+    <Genre>Comedy</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Torin Rylett</FullName>
+        <MainCharacter>Plays main character in 'What the Butler Saw'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Maddalena Masterson</FullName>
+        <MainCharacter>Plays main character in 'What the Butler Saw'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+  <User>
+    <Title>Woyzeck</Title>
+    <Duration>01:30:00</Duration>
+    <Rating>3.4</Rating>
+    <Genre>Drama</Genre>
+    <Actors>
+      <Actor>
+        <FullName>Zacherie Rainforth</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Webster Filson</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Munroe Bringloe</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Monro Cord</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Madella Van Son</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Lorraine Thorwarth</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+      <Actor>
+        <FullName>Elwyn Callister</FullName>
+        <MainCharacter>Plays main character in 'Woyzeck'.</MainCharacter>
+      </Actor>
+    </Actors>
+  </User>
+</Users>
